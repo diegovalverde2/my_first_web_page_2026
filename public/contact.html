@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto · Diego Valverde</title>
+<meta name="description" content="Formulario de contacto de la página web personal de Diego Valverde.">
+<link rel="icon" type="image/svg+xml" href="../images/seal.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="../index.html">
+      <img class="brand__seal" src="../images/seal.svg" alt="">
+      <span class="brand__text">
+        <span class="brand__name">Diego Valverde</span>
+        <span class="brand__role">1º Ingeniería Informática · UFV</span>
+      </span>
+    </a>
+    <nav class="filetabs" aria-label="Navegación principal">
+      <a href="../index.html"><span class="dot"></span>index.html</a>
+      <a href="about.html"><span class="dot"></span>about.html</a>
+      <a href="topic.html"><span class="dot"></span>topic.html</a>
+      <a href="degree.html"><span class="dot"></span>degree.html</a>
+      <a href="net.html"><span class="dot"></span>net.html</a>
+      <a href="contact.html" aria-current="page"><span class="dot"></span>contact.html</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="block" style="border-top:none;">
+    <p class="eyebrow">Contacto</p>
+    <h1>Hablemos</h1>
+    <p class="lead" style="color:var(--ink-soft); font-size:1.1rem;">Si quieres comentarme algo sobre este proyecto, sobre la asignatura o simplemente sobre motocross, puedes rellenar este formulario.</p>
+
+    <form class="contact" action="#" method="get" onsubmit="return false;">
+      <div class="field-row">
+        <div class="field">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com">
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="asunto">Asunto</label>
+          <input type="text" id="asunto" name="asunto" placeholder="¿Sobre qué quieres hablar?">
+        </div>
+        <div class="field">
+          <label for="fecha">Fecha</label>
+          <input type="date" id="fecha" name="fecha">
+        </div>
+      </div>
+      <div class="field">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe aquí tu mensaje..."></textarea>
+      </div>
+      <button type="submit" class="btn btn--solid">Enviar mensaje</button>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <span>© 2026 Diego Valverde — proyecto académico UFV</span>
+    <span><a href="https://github.com/diegovalverde2/my_first_web_page_2026" target="_blank" rel="noopener">repositorio en GitHub ↗</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
