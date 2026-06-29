@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diego Valverde · Ingeniería Informática UFV</title>
+<meta name="description" content="Sitio web personal de Diego Valverde, estudiante de 1º de Ingeniería Informática en la UFV. Proyecto de la asignatura Fundamentos de Ingeniería Informática.">
+<link rel="icon" type="image/svg+xml" href="images/seal.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html">
+      <img class="brand__seal" src="images/seal.svg" alt="">
+      <span class="brand__text">
+        <span class="brand__name">Diego Valverde</span>
+        <span class="brand__role">1º Ingeniería Informática · UFV</span>
+      </span>
+    </a>
+    <nav class="filetabs" aria-label="Navegación principal">
+      <a href="index.html" aria-current="page"><span class="dot"></span>index.html</a>
+      <a href="public/about.html"><span class="dot"></span>about.html</a>
+      <a href="public/topic.html"><span class="dot"></span>topic.html</a>
+      <a href="public/degree.html"><span class="dot"></span>degree.html</a>
+      <a href="public/net.html"><span class="dot"></span>net.html</a>
+      <a href="public/contact.html"><span class="dot"></span>contact.html</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero__grid">
+      <div>
+        <p class="eyebrow">Proyecto académico · Fundamentos de Ingeniería Informática</p>
+        <h1>Hola, soy Diego. Estoy construyendo mi base como ingeniero informático.</h1>
+        <p class="lead">Este sitio reúne lo que he aprendido durante mi primer cuatrimestre en la UFV: desde los fundamentos de HTML y CSS hasta una primera reflexión sobre qué tipo de ingeniero quiero llegar a ser. También hay sitio para el motocross, que es donde desconecto del teclado.</p>
+        <div class="btnrow">
+          <a class="btn btn--solid" href="public/about.html">Sobre mí</a>
+          <a class="btn btn--ghost" href="public/topic.html">Mi pasión: el motocross</a>
+        </div>
+      </div>
+      <div class="terminal" aria-hidden="false">
+        <div class="terminal__bar"><span></span><span></span><span></span></div>
+        <p class="terminal__line"><span class="prompt">$</span> whoami</p>
+        <p class="terminal__line"><span class="key">nombre</span>  <span class="val">Diego Valverde</span></p>
+        <p class="terminal__line"><span class="key">grado</span>   <span class="val">Ingeniería Informática</span></p>
+        <p class="terminal__line"><span class="key">curso</span>   <span class="val">1º</span></p>
+        <p class="terminal__line"><span class="key">universidad</span> <span class="val">UFV</span></p>
+        <p class="terminal__line"><span class="key">stack</span>   <span class="val">HTML5 · CSS3 · Git/GitHub</span></p>
+        <p class="terminal__line"><span class="key">aficiones</span> <span class="val">motocross, videojuegos, salir con amigos</span></p>
+        <p class="terminal__line"><span class="prompt">$</span> <span class="key">_</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <p class="eyebrow">Sobre este sitio</p>
+    <h2>Un cuaderno de bitácora de mi primer curso</h2>
+    <p>Esta página web es el proyecto práctico individual de la asignatura <strong>Fundamentos de Ingeniería Informática</strong>, y está pensada como un mapa de mi paso por primero de carrera: quién soy, qué estoy estudiando, qué dudas tengo todavía y qué cosas me gustan fuera del aula. Todo el sitio está construido únicamente con <strong>HTML5</strong> y <strong>CSS3</strong> sin frameworks ni scripts de terceros, versionado con <strong>Git</strong> y publicado a través de <strong>GitHub Pages</strong>.</p>
+    <p>Puedes moverte por las distintas secciones desde las pestañas de la cabecera (cada una corresponde literalmente a un archivo <code>.html</code> del repositorio) o desde las tarjetas de aquí abajo.</p>
+
+    <div class="cards">
+      <article class="card">
+        <span class="filename">about.html</span>
+        <h3>Sobre mí</h3>
+        <p>Quién soy, mi CV, un par de fotos y mis redes sociales.</p>
+        <a class="go" href="public/about.html">ver página →</a>
+      </article>
+      <article class="card">
+        <span class="filename">topic.html</span>
+        <h3>Motocross</h3>
+        <p>Historia, categorías, equipo de protección y por qué me enganchó este deporte.</p>
+        <a class="go" href="public/topic.html">ver página →</a>
+      </article>
+      <article class="card">
+        <span class="filename">degree.html</span>
+        <h3>Mi grado</h3>
+        <p>Estructura del Grado en Ingeniería Informática de la UFV y sus asignaturas.</p>
+        <a class="go" href="public/degree.html">ver página →</a>
+      </article>
+      <article class="card">
+        <span class="filename">fii.html</span>
+        <h3>Fundamentos de Ing. Informática</h3>
+        <p>La asignatura para la que nace este propio proyecto web, explicada a fondo.</p>
+        <a class="go" href="public/fii.html">ver página →</a>
+      </article>
+      <article class="card">
+        <span class="filename">net.html</span>
+        <h3>Red de compañeros</h3>
+        <p>Enlaces a las páginas web de mis compañeros de clase.</p>
+        <a class="go" href="public/net.html">ver página →</a>
+      </article>
+      <article class="card">
+        <span class="filename">contact.html</span>
+        <h3>Contacto</h3>
+        <p>Un formulario sencillo para ponerte en contacto conmigo.</p>
+        <a class="go" href="public/contact.html">ver página →</a>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <span>© 2026 Diego Valverde — proyecto académico UFV</span>
+    <span><a href="https://github.com/diegovalverde2/my_first_web_page_2026" target="_blank" rel="noopener">repositorio en GitHub ↗</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
